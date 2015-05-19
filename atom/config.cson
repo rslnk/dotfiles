@@ -1,0 +1,64 @@
+"*":
+  "exception-reporting":
+    userId: "41768bf0-1c87-6d57-56ec-b328157a077e"
+  "release-notes":
+    viewedVersion: "0.81.0"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "ee4c6c66130c6897de561533140de0c13df1a05c"
+  editor:
+    invisibles:
+      {}
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    preferredLineLength: 100
+    useShadowDOM: false
+    lineHeight: 1.35
+    fontFamily: "Menlo-Regular"
+  core:
+    themes: [
+      "spacegray-dark-ui"
+      "base16-ocean-dark-spacegray"
+    ]
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+    disabledPackages: [
+      "tabs"
+      "tree-view"
+      "tree-view"
+      "tree-view"
+      "tree-view"
+      "tree-view"
+      "tree-view"
+      "tree-view"
+      "tree-view"
+    ]
+  "markdown-preview":
+    {}
+  "markdown-writer":
+    fileExtension: ".md .markdown"
+    siteEngine: "octopress"
+  "atom-terminal":
+    app: "Iterm2.app"
+  "terminal-panel":
+    {}
+  tabs:
+    showIcons: true
+  "tree-view":
+    {}
+  "atom-color-highlight":
+    {}
+  linter:
+    {}
+  "markdown-preview-plus":
+    {}
+".source.stylus":
+  editor:
+    preferredLineLength: 100
+"source.gfm":
+  editor:
+    softWrap: true

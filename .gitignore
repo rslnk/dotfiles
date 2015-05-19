@@ -1,0 +1,10 @@
+atom/.apm/
+atom/.node-gyp/
+atom/compile-cache/
+atom/packages/
+atom/storage/
+
+shell/fish/
+!shell/fish/config.fish
+
+!shell/bash-git-prompt
