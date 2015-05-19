@@ -19,7 +19,7 @@ Development machine uses the following software:
 
 Moving towards one-liner setup of a development machine.
 
-* Clone this repository `git clone github.com/rslnk/dotfiles.git`
+* Clone this repository `git clone git@github.com:rslnk/dotfiles.git`
 * `cd ~/dotfiles`
 * Run `./init.sh`
 
