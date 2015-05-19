@@ -15,9 +15,29 @@ Development machine uses the following software:
 * [Git](http://git-scm.com)
 * [Git Flow](http://danielkummer.github.io/git-flow-cheatsheet) — A set of git extensions to provide high-level repository operations for Vincent Driessen's branching model
 
-## Automatic installation
+## Installation
 
-Moving towards one-liner setup of a development machine.
+### Manual installation
+
+Alternativelly you can download and manually install software.
+
+* Install [Homebrew](http://brew.sh): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Install [Fish shell](https://github.com/fish-shell/fish-shell): `brew install fish`
+* Install [Bash Git Prompt](https://github.com/magicmonty/bash-git-prompt): `brew install bash-git-prompt`
+* Install [Git](http://git-scm.com/downloads): `brew install git`
+* Install [git-flow](http://danielkummer.github.io/git-flow-cheatsheet): `brew install git-flow`
+
+### Symlink dotfiles
+
+Create symlinks from the home directory to any desired dotfiles and backup dotfiles.
+
+* Clone this repository `git clone git@github.com:rslnk/dotfiles.git`
+* `cd ~/dotfiles`
+* Run `./makesymlinks.sh`
+
+### Automatic installation
+
+To-do: move towards one-liner setup of a development machine
 
 * Clone this repository `git clone git@github.com:rslnk/dotfiles.git`
 * `cd ~/dotfiles`
@@ -35,15 +55,6 @@ Update the list of packages:
 
 Set "Load preferences from a custom folder or URL" to `/Users/username/dotfiles/iterm2` in Preferences > General.
 
-## Manual installation
-
-Alternativelly you can download and manually install software.
-
-* Install [Homebrew](http://brew.sh): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-* Install [Fish shell](https://github.com/fish-shell/fish-shell): `brew install fish`
-* Install [Bash Git Prompt](https://github.com/magicmonty/bash-git-prompt): `brew install bash-git-prompt`
-* Install [Git](http://git-scm.com/downloads): `brew install git`
-* Install [git-flow](http://danielkummer.github.io/git-flow-cheatsheet): `brew install git-flow`
 
 ## To-do
 

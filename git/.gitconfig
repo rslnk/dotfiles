@@ -1,0 +1,38 @@
+[user]
+	name = Ruslan Komjakov
+	email = ruslan.komjakov@gmail.com
+[core]
+	excludesfile = ~/dotfiles/git/.gitignore_global
+	editor = atom
+	autocrlf = input
+	precomposeunicode = true
+	ignorecase = false
+[github]
+	user = rslnk
+[alias]
+	bclean = clean-branches
+	branches = latest-branches
+	latest = latest-tag
+	lbclean = clean-local-branches
+	lg = pretty-log
+	mw = merge-no-whitespace
+	um = checkout-upstream-primary
+	co = checkout
+	pr = create-pull-request
+	feature = create-feature-branch
+[color]
+	ui = true
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[credential]
+	helper = osxkeychain
+[url "https://github.com"]
+	insteadOf = git://github.com
