@@ -928,11 +928,13 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSColorPanelMode</key>
-	<string>0</string>
+	<string>6</string>
+	<key>NSColorPickerSlidersDefaults</key>
+	<string>1</string>
 	<key>NSFontPanelAttributes</key>
 	<string>1, 1</string>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles/ui-themes/mbadolato-iTerm2-Color-Schemes-5ad4f0a/schemes</string>
+	<string>~/Documents</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{1343, 814}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -969,10 +971,15 @@
 		<key>TB Size Mode</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSColorPanel</key>
-	<string>2107 238 201 331 1680 -150 1920 1178 </string>
+	<string>367 335 222 331 0 0 1680 1050 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>215 386 924 485 0 0 1680 1027 </string>
+	<string>429 455 924 485 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>-1 6 1676 1014 0 0 1680 1027 </string>
 	<key>NeverWarnAboutShortLivedSessions_8D762CDF-161D-491F-9026-7BAE112F7730</key>
@@ -1137,11 +1144,11 @@
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
-				<real>0.13232867419719696</real>
+				<real>0.0</real>
 				<key>Green Component</key>
-				<real>0.13232643902301788</real>
+				<real>0.0</real>
 				<key>Red Component</key>
-				<real>0.13233038783073425</real>
+				<real>0.0</real>
 			</dict>
 			<key>Background Image Is Tiled</key>
 			<false/>
@@ -1722,7 +1729,7 @@
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>453650049.33974999</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>453650049.34047103</real>
+	<real>453750637.76226801</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
