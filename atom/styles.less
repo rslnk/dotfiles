@@ -1,7 +1,11 @@
-atom-text-editor {
-  //-webkit-font-smoothing: antialiased;
+atom-text-editor::shadow {
+  // Make line lenght wrap guide less visible
+  .wrap-guide {
+    opacity: .05;
+  }
 }
 
-atom-text-editor .wrap-guide {
-  //opacity: 0.8;
+// Change Deprecation Cop status warning default color
+.status-bar .deprecation-cop-status.text-warning {
+  color: inherit;
 }
