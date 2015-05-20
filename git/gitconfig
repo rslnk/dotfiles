@@ -2,7 +2,7 @@
 	name = Ruslan Komjakov
 	email = ruslan.komjakov@gmail.com
 [core]
-	excludesfile = ~/dotfiles/git/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	editor = atom
 	autocrlf = input
 	precomposeunicode = true

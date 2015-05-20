@@ -1,7 +1,3 @@
-if not set -q __GIT_PROMPT_DIR
-    set __GIT_PROMPT_DIR ~/dotfiles/shell/bash-git-prompt
-end
-
 # Colors
 # Reset
 set ResetColor (set_color normal)       # Text Reset

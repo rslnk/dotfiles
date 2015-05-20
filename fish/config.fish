@@ -5,6 +5,7 @@
 set default_path /usr/bin /usr/sbin /bin /sbin
 set homebrew /usr/local/bin
 set -gx PATH $homebrew $HOME/bin $brew_php $default_path
+set --export NODE_PATH /usr/local/lib/node
 
 # Set C compiler
 set -gx CC gcc
@@ -33,9 +34,11 @@ set -gx fish_color_host magenta
 set -gx fish_color_user blue
 set -gx fish_color_status red
 
-# Import advanced git prompt
-source '~/dotfiles/bash-git-prompt/gitprompt.fish'
+# Set path to bash-git-prompt
+set __GIT_PROMPT_DIR ~/dotfiles/gitprompt
 
+# Import custom fish bash-git-prompt settings
+source $HOME/dotfiles/gitprompt/gitprompt.fish
 
 # Aliases
 # -----------------------------------------------------------------
@@ -45,11 +48,11 @@ alias lla         'll -a'
 alias ls          'ls -GF'
 alias -           'cd -'
 
-alias reload      'source ~/.fish/config.fish'
-alias re          'source ~/.fish/config.fish'
+alias reload      'source ~/.config/fish/config.fish'
+alias re          'source ~/.config/fish/config.fish'
 
 # Numerical permissions for list of directories
-alias llac        'ls -l -a | awk \"{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/) *2^(8-i));if(k)printf(\"%0o \",k);print}\"'
+alias llac        "ls -l -a | awk '{k=0;for(i=0;i<=8;i++)k+=((substr(\$1,i+2,1)~/[rwx]/) *2^(8-i));if(k)printf(\"%0o \",k);print}'"
 
 alias st          'subl'
 alias stt         'subl .'
@@ -84,7 +87,7 @@ alias cob          'git checkout -b'
 alias b            'branch'
 
 # The Ultimate Git Log Format
-alias log          'log --pretty=format:\"%C(auto) %h %ad | \"%s\"%d%C(blue) ☺ %an\" --graph --date=short'
+alias log          "log --pretty=format:'%C(auto) %h %ad | \"%s\"%d%C(blue) ☺ %an' --graph --date=short"
 
 # Git Flow aliases
 alias fs           'flow feature start'

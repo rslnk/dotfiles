@@ -19,11 +19,10 @@ Development machine uses the following software:
 
 ### Manual installation
 
-Alternativelly you can download and manually install software.
+Download and manually install software.
 
 * Install [Homebrew](http://brew.sh): `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 * Install [Fish shell](https://github.com/fish-shell/fish-shell): `brew install fish`
-* Install [Bash Git Prompt](https://github.com/magicmonty/bash-git-prompt): `brew install bash-git-prompt`
 * Install [Git](http://git-scm.com/downloads): `brew install git`
 * Install [git-flow](http://danielkummer.github.io/git-flow-cheatsheet): `brew install git-flow`
 
@@ -54,7 +53,6 @@ Update the list of packages:
 ## Iterm2
 
 Set "Load preferences from a custom folder or URL" to `/Users/username/dotfiles/iterm2` in Preferences > General.
-
 
 ## To-do
 
