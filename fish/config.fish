@@ -69,27 +69,34 @@ alias getbedrock  'curl -L -o master.zip https://github.com/rslnk/bedrock/zipbal
 
 
 # Git aliases
-alias s            'status'
+alias git           'hub'
 
-alias aa           'add --all :/'  # add content for the whole tree
-alias a            'add --all .'   # restrict the command to the current directory
-alias au           'add -u :/'     # add/remove all files from the whole tree
+alias gs            'git status'
 
-alias gc           'commit'
-alias cm           'gommit -m'
-alias cma          'commit -a'
+alias gaa           'git add --all :/'  # add content for the whole tree
+alias ga            'git add --all .'   # restrict the command to the current directory
+alias gau           'git add -u :/'     # add/remove all files from the whole tree
 
-alias co           'checkout'
-alias com          'checkout master'
-alias cod          'checkout develop'
-alias cob          'git checkout -b'
+alias ggc           'git commit'
+alias gcm           'git gommit -m'
+alias gcma          'git commit -a'
 
-alias b            'branch'
+alias gco           'git checkout'
+alias gcom          'git checkout master'
+alias gcod          'git checkout develop'
+alias gcob          'git git checkout -b'
+
+alias gb            'git branch'
 
 # The Ultimate Git Log Format
-alias log          "log --pretty=format:'%C(auto) %h %ad | \"%s\"%d%C(blue) ☺ %an' --graph --date=short"
+alias glog          "git log --pretty=format:'%C(auto) %h %ad | \"%s\"%d%C(blue) ☺ %an' --graph --date=short"
 
-# Git Flow aliases
+#alias gclean-local 'git branch --merged develop | grep -v "\* master" | xargs -n 1 git branch -d'
+
+# GitHub
+alias gpr          'git pull-request'
+
+# Git Flow
 alias fs           'flow feature start'
 alias ff           'flow feature finish'
 

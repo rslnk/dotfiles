@@ -10,16 +10,30 @@
 [github]
 	user = rslnk
 [alias]
-	bclean = clean-branches
-	branches = latest-branches
-	latest = latest-tag
-	lbclean = clean-local-branches
-	lg = pretty-log
-	mw = merge-no-whitespace
-	um = checkout-upstream-primary
+	s = status
+	b = branch
+
 	co = checkout
-	pr = create-pull-request
-	feature = create-feature-branch
+	cob = checkout -b
+	com = checkout master
+	cod = checkout develop
+
+	aa = add --all :/
+	a = add --all .
+	au = add -u :/
+	ac = !git add . && git commit -am
+	c = commit
+	cm = commit -m
+	cma = commit -a
+
+	pick = cherry-pick
+	type = cat-file -t
+	dump = cat-file -p
+	lg = log --pretty=format:'%C(auto) %h %ad | \"%s\"%d%C(blue) ☺ %an' --graph --date=short
+	pr = pull-request
+	flow-setup = "!git branch --track develop origin/develop 2>/dev/null ; git flow init -fd && git checkout master && git pull origin master && git checkout develop && git pull origin develop"
+	fs = flow feature start
+	ff = flow feature finish
 [color]
 	ui = true
 [filter "media"]
