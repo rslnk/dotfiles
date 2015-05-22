@@ -111,3 +111,8 @@ function git_current_branch -d 'Prints a human-readable representation of the cu
     return 0
   end
 end
+
+# Import temporary project related aliases (not a part of dotfiles)
+if test -e $HOME/dotfiles/fish/project-aliases.fish
+  source $HOME/dotfiles/fish/project-aliases.fish
+end
