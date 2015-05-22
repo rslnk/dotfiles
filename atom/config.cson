@@ -17,7 +17,7 @@
   core:
     themes: [
       "spacegray-dark-ui"
-      "2-dark-syntax"
+      "base16-ocean-dark-syntax-theme"
     ]
     ignoredNames: [
       ".git"
