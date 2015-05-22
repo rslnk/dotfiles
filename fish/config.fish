@@ -91,18 +91,18 @@ alias gb            'git branch'
 # The Ultimate Git Log Format
 alias glog          "git log --pretty=format:'%C(auto) %h %ad | \"%s\"%d%C(blue) ☺ %an' --graph --date=short"
 
-#alias gclean-local 'git branch --merged develop | grep -v "\* master" | xargs -n 1 git branch -d'
+alias gclean-local  'git branch --merged develop | grep -v "\* master" | xargs -n 1 git branch -d'
 
 # GitHub
-alias gpr          'git pull-request'
+alias gpr           'git pull-request'
 
 # Git Flow
-alias fs           'flow feature start'
-alias ff           'flow feature finish'
+alias gfs            'flow feature start'
+alias gff            'flow feature finish'
 
 # Push and pull from/to current branch
-alias ggpush       'git push origin (git_current_branch)'
-alias ggpull       'git pull origin (git_current_branch)'
+alias ggpush        'git push origin (git_current_branch)'
+alias ggpull        'git pull origin (git_current_branch)'
 
 function git_current_branch -d 'Prints a human-readable representation of the current branch'
   set -l ref (git symbolic-ref HEAD ^/dev/null; or git rev-parse --short HEAD ^/dev/null)

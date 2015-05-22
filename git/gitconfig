@@ -29,8 +29,11 @@
 	pick = cherry-pick
 	type = cat-file -t
 	dump = cat-file -p
-	lg = log --pretty=format:'%C(auto) %h %ad | \"%s\"%d%C(blue) ☺ %an' --graph --date=short
+
 	pr = pull-request
+
+	lg = log --pretty=format:'%C(auto) %h %ad | \"%s\"%d%C(blue) ☺ %an' --graph --date=short
+
 	flow-setup = "!git branch --track develop origin/develop 2>/dev/null ; git flow init -fd && git checkout master && git pull origin master && git checkout develop && git pull origin develop"
 	fs = flow feature start
 	ff = flow feature finish
