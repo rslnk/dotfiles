@@ -6,7 +6,7 @@
 # Variables
 dir=~/dotfiles
 olddir=~/dotfiles_old
-files="atom"  # list of files/folders to symlink in homedir
+files="atom osx"  # list of files/folders to symlink in homedir
 
 # Create dotfiles_old in homedir
 echo -n "Creating $olddir for backup of any existing dotfiles in ~/ ..."
@@ -34,5 +34,3 @@ for file in $files; do
   echo "Creating symlink to $file in home directory."
   ln -s $dir/$file ~/.$file
 done
-
-
