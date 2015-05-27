@@ -21,10 +21,9 @@
 	aa = add --all :/
 	a = add --all .
 	au = add -u :/
-	ac = !git add . && git commit -am
+	acm = !git add . && git commit -am
 	c = commit
 	cm = commit -m
-	cma = commit -a
 
 	pick = cherry-pick
 	type = cat-file -t
