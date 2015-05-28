@@ -32,9 +32,8 @@
       "tree-view"
       "tabs"
       "project-view"
-      "linter"
-      "linter-stylint"
       "tidy-markdown"
+      "linter-stylint"
     ]
   "markdown-preview":
     {}

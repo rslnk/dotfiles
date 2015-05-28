@@ -14,3 +14,13 @@
     '/Users/ruslankomjakov/Sites/reimaginebelonging/site/web/app/mu-plugins'
     '/Users/ruslankomjakov/Sites/reimaginebelonging/site'
   ]
+'Biguniverse':
+  'title': 'Biguniverse'
+  'paths': [
+    '/Users/ruslankomjakov/Sites/biguniverse/site/web/app/themes/theme/assets/styles'
+    '/Users/ruslankomjakov/Sites/biguniverse/site/web/app/themes/theme/assets/scripts'
+    '/Users/ruslankomjakov/Sites/biguniverse/site/web/app/themes/theme/templates'
+    '/Users/ruslankomjakov/Sites/biguniverse/site/web/app/themes/theme'
+    '/Users/ruslankomjakov/Sites/biguniverse/site/web/app/mu-plugins'
+    '/Users/ruslankomjakov/Sites/biguniverse/site'
+  ]

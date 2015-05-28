@@ -67,6 +67,9 @@ alias cap         'bundle exec cap'
 alias getroots    'curl -L -o master.zip https://github.com/roots/roots/zipball/master/ ; unzip master.zip ; rm master.zip'
 alias getbedrock  'curl -L -o master.zip https://github.com/rslnk/bedrock/zipball/master/ ; unzip master.zip ; rm master.zip'
 
+# Import Atom packages list to dotfiles
+alias atom-packages-save        'apm list --installed --bare > atom/my-packages.txt'
+alias atom-packages-install 'apm install --packages-file atom/my-packages.txt'
 
 # Git aliases
 alias git           'hub'
