@@ -3,7 +3,7 @@
 	email = ruslan.komjakov@gmail.com
 [core]
 	excludesfile = ~/.gitignore_global
-	editor = atom
+	editor = atom --wait
 	autocrlf = input
 	precomposeunicode = true
 	ignorecase = false
@@ -18,12 +18,14 @@
 	com = checkout master
 	cod = checkout develop
 
+	a = add
 	aa = add --all :/
-	a = add --all .
 	au = add -u :/
 	acm = !git add . && git commit -am
+
 	c = commit
 	cm = commit -m
+	cam = commit --amend -m
 
 	pick = cherry-pick
 	type = cat-file -t
