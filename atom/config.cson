@@ -12,12 +12,12 @@
       {}
     showIndentGuide: true
     lineHeight: 1.35
-    fontSize: 15
     fontFamily: "Menlo-Regular"
+    fontSize: 15
   core:
     themes: [
       "spacegray-dark-ui"
-      "base16-ocean-dark-syntax-theme"
+      "spacegray-atom-dark-syntax"
     ]
     ignoredNames: [
       ".git"
@@ -25,15 +25,8 @@
       ".DS_Store"
     ]
     disabledPackages: [
-      "tree-view"
-      "tree-view"
-      "tree-view"
-      "tree-view"
-      "tree-view"
-      "tabs"
       "project-view"
       "tidy-markdown"
-      "linter-stylint"
     ]
   "markdown-preview":
     {}
@@ -45,12 +38,7 @@
   "terminal-panel":
     {}
   tabs:
-    showIcons: true
-  "tree-view":
-    hideVcsIgnoredFiles: false
-    hideIgnoredNames: false
-    showOnRightSide: false
-    sortFoldersBeforeFiles: true
+    usePreviewTabs: true
   "atom-color-highlight":
     {}
   linter:
@@ -62,6 +50,8 @@
   "sublime-tabs":
     {}
   "tidy-markdown":
+    {}
+  "one-dark-ui":
     {}
 ".source.stylus":
   editor:
