@@ -1,18 +1,21 @@
 'Discovering Pluto':
   'title': 'Discovering Pluto'
   'paths': [
+    '/Users/ruslankomjakov/Sites/discoveringpluto.com/src/stylus'
+    '/Users/ruslankomjakov/Sites/discoveringpluto.com/src/views'
+    '/Users/ruslankomjakov/Sites/discoveringpluto.com/src'
     '/Users/ruslankomjakov/Sites/discoveringpluto.com'
   ]
 'Reimagine Belonging':
   'title': 'Reimagine Belonging'
   'paths': [
-    '/Users/ruslankomjakov/Sites/reimaginebelonging.com/site/web/app/themes/theme/assets/styles'
-    '/Users/ruslankomjakov/Sites/reimaginebelonging.com/site/web/app/themes/theme/assets/scripts'
-    '/Users/ruslankomjakov/Sites/reimaginebelonging.com/site/web/app/themes/theme/assets/ng'
-    '/Users/ruslankomjakov/Sites/reimaginebelonging.com/site/web/app/themes/theme/templates'
-    '/Users/ruslankomjakov/Sites/reimaginebelonging.com/site/web/app/themes/theme'
-    '/Users/ruslankomjakov/Sites/reimaginebelonging.com/site/web/app/mu-plugins'
-    '/Users/ruslankomjakov/Sites/reimaginebelonging.com/site'
+    '/Users/ruslankomjakov/Sites/reimaginebelonging.org/site/web/app/themes/theme/assets/styles'
+    '/Users/ruslankomjakov/Sites/reimaginebelonging.org/site/web/app/themes/theme/assets/scripts'
+    '/Users/ruslankomjakov/Sites/reimaginebelonging.org/site/web/app/themes/theme/assets/ng'
+    '/Users/ruslankomjakov/Sites/reimaginebelonging.org/site/web/app/themes/theme/templates'
+    '/Users/ruslankomjakov/Sites/reimaginebelonging.org/site/web/app/themes/theme'
+    '/Users/ruslankomjakov/Sites/reimaginebelonging.org/site/web/app/mu-plugins'
+    '/Users/ruslankomjakov/Sites/reimaginebelonging.org/site'
   ]
 'Biguniverse':
   'title': 'Biguniverse'

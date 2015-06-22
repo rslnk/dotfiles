@@ -8,8 +8,7 @@
   metrics:
     userId: "ee4c6c66130c6897de561533140de0c13df1a05c"
   editor:
-    invisibles:
-      {}
+    invisibles: {}
     showIndentGuide: true
     lineHeight: 1.35
     fontFamily: "Menlo-Regular"
@@ -27,32 +26,28 @@
     disabledPackages: [
       "project-view"
       "tidy-markdown"
+      "language-jade"
+      "rgb"
     ]
-  "markdown-preview":
-    {}
+  "markdown-preview": {}
   "markdown-writer":
     fileExtension: ".md .markdown"
     siteEngine: "octopress"
   "atom-terminal":
     app: "Iterm2.app"
-  "terminal-panel":
-    {}
+  "terminal-panel": {}
   tabs:
     usePreviewTabs: true
-  "atom-color-highlight":
-    {}
+  "atom-color-highlight": {}
   linter:
-    {}
-  "markdown-preview-plus":
-    {}
-  "auto-update-packages":
-    {}
-  "sublime-tabs":
-    {}
-  "tidy-markdown":
-    {}
-  "one-dark-ui":
-    {}
+    subtleLinterErrors: [
+      "stylint"
+    ]
+  "markdown-preview-plus": {}
+  "auto-update-packages": {}
+  "sublime-tabs": {}
+  "tidy-markdown": {}
+  "one-dark-ui": {}
 ".source.stylus":
   editor:
     preferredLineLength: 100
